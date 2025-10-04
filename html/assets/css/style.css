@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@import url('./_fonts.css');
+@import url('./_resets.css');
+@import url('./_commons.css');
+
+/* 메인 페이지 */
+.site-home {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.site-home main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 기본 페이지 */
+.site-page {}
+
+/* 사이트 레이아웃 */
+.site-header {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-header h1 a {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.site-main {}
+
+.site-footer {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 20px;
+    font-size: 13px;
+    color: #555;
+    font-family: "NanumSquareNeo";
+}
+
+.site-logo {
+    max-width: 150px;
+    padding: 5px;
+}
+
+/* 사이트 컨테이터 */
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container.center {
+    text-align: center;
+}
+
+
+/* 서치 */
+.search-form {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.search-form>input[type="text"] {
+    border: 0;
+    background: #f3f3f5;
+    font-size: 14px;
+    padding: 12px 30px;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.search-form>button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #d94b7b;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    cursor: pointer;
+    padding: 13px;
+}
