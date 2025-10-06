@@ -1,9 +1,14 @@
-<body class="site-home">
-    <header class="site-header">
-        <div class="container">
-            <h1><a href="<?= BASE_URL ?>">010number</a></h1>
-            <p class="tagline">모르는 번호 검색 · 스팸 전화 조회 서비스</p>
-        </div>
-    </header>
+<body class="site-number <?= $body_class ?? '' ?>">
+    <div id="page-loader"></div>
 
-    <main class="site-main">
+    <!-- header -->
+    <header>
+        <h1>
+            <a href="<?= BASE_URL ?>">
+                <img src="/assets/images/logo.png" alt="010number">
+            </a>
+        </h1>
+    </header>
+    <!-- //header -->
+
+    <main>

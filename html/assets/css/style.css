@@ -4,42 +4,34 @@
 @import url('./_resets.css');
 @import url('./_commons.css');
 
-/* 메인 페이지 */
-.site-home {
+/* 기본 레이아웃 */
+.site-number {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-.site-home main {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* 기본 페이지 */
-.site-page {}
-
-/* 사이트 레이아웃 */
-.site-header {
+.site-number header {
+    text-align: center;
     background-color: #f8f9fa;
     padding: 10px 20px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
-.site-header h1 a {
-    display: inline-block;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.site-number header h1 {
+    font-size: 13px;
+    color: #555;
+    font-family: "NanumSquareNeo";
 }
 
-.site-main {}
+.site-number main {
+    flex: 1;
+}
 
-.site-footer {
+.site-number header h1 img {
+    width: 150px;
+}
+
+.site-number footer {
     text-align: center;
     background-color: #f8f9fa;
     padding: 20px;
@@ -48,53 +40,144 @@
     font-family: "NanumSquareNeo";
 }
 
-.site-logo {
-    max-width: 150px;
-    padding: 5px;
-}
-
-/* 사이트 컨테이터 */
-.container {
-    max-width: 800px;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.container.center {
+/* 서치 섹션(search-section) */
+.search-section {
+    padding: 20px;
     text-align: center;
 }
 
-
-/* 서치 */
 .search-form {
-    max-width: 400px;
     width: 100%;
+    max-width: 600px;
     margin: 0 auto;
+    padding: 0 20px;
     position: relative;
 }
 
 .search-form>input[type="text"] {
     border: 0;
     background: #f3f3f5;
-    font-size: 14px;
+    font-size: 16px;
     padding: 12px 30px;
     border-radius: 30px;
     width: 100%;
+    color: #111;
 }
 
 .search-form>button {
     position: absolute;
-    right: 0;
+    right: 20px;
     top: 0;
-    background: #d94b7b;
-    color: #fff;
+    width: 50px;
+    height: 50px;
+    background-color: #DA507D;
     border: none;
-    border-radius: 50%;
-    width: 45px;
-    height: 45px;
-    display: flex;
-    justify-content: right;
-    align-items: center;
     cursor: pointer;
-    padding: 13px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px 24px;
+    border-radius: 50%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' stroke='white' fill='none' stroke-width='2' viewBox='0 0 24 24'%3E%3Cpath d='M21 21L16.65 16.65M19 11C19 15.42 15.42 19 11 19C6.58 19 3 15.42 3 11C3 6.58 6.58 3 11 3C15.42 3 19 6.58 19 11Z'/%3E%3C/svg%3E");
+}
+
+.search-form>button:hover {
+    background-color: #e64b4f;
+}
+
+/* 검색 결과(search-result) */
+.search-result {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.search-result h2 {
+    font-family: 'EsaManru';
+    text-align: center;
+    margin-bottom: 10px;
+    background: #e8efd6;
+    padding: 100px 0;
+    color: #254f1a;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+.search-result p {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.search-result .desc {
+    background: #254f1a;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.search-list {
+    list-style: disc;
+    margin-left: 16px;
+}
+
+/* 검색 입력(search-input) */
+.search-input {
+    max-width: 600px;
+    margin: 80px auto 40px;
+    padding: 20px;
+    background: #fafafa;
+    border-radius: 8px;
+}
+
+.search-input h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.register-form .form-group {
+    margin-bottom: 16px;
+}
+
+.register-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.register-form input[type="text"],
+.register-form select,
+.register-form textarea {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 0.95rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.register-form textarea {
+    resize: vertical;
+}
+
+.register-form .btn-submit {
+    width: 100%;
+    padding: 12px;
+    background: #DA507D;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.25s ease-in-out;
+}
+
+.register-form .btn-submit:hover {
+    background: #e44278;
 }

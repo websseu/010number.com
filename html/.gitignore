@@ -1,0 +1,8 @@
+# ▶ 환경변수 파일 (DB 정보 등)
+.env
+
+.DS_Store
+.vscode/
+
+phpMyAdmin/
+ 

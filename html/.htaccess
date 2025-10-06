@@ -1,0 +1,9 @@
+# URL Rewriting 활성화
+RewriteEngine On
+
+# 실제 파일이나 폴더가 있으면 그대로 접근
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# 숫자/대시로 된 패턴을 phone.php 로 전달
+RewriteRule ^(.*)$ index.php?route=$1 [L,QSA]

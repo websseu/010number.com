@@ -1,9 +1,12 @@
+
     </main>
-    <footer class="site-footer">
+
+    <!-- footer -->
+    <footer>
         <div class="container">
-            <p>© 2025 <a href="mailto:webstoryboy@naver.com">010number.com</a> | 모든 권리 보유</p>
+            <p><a href="mailto:webstoryboy@naver.com">© <?= date('Y') ?> 010number.com</a></p>
         </div>
     </footer>
-
+    <!-- //footer -->
 </body>
 </html>

@@ -1,0 +1,1375 @@
+[
+    {
+        "region": "서울특별시",
+        "district": "서울시청",
+        "site": "http://www.seoul.go.kr",
+        "address": "서울특별시 중구 세종대로 110 서울특별시청",
+        "phone": [
+            "02-120"
+        ]
+    },
+    {
+        "region": "서울특별시",
+        "district": "강남구청",
+        "site": "http://www.gangnam.go.kr",
+        "address": "서울특별시 강남구 학동로 426",
+        "phone": [
+            "02-3423-5114"
+        ]
+    },
+    {
+        "region": "서울특별시",
+        "district": "강동구청",
+        "site": "https://www.gangdong.go.kr",
+        "address": "서울시 강동구 성내로 25",
+        "phone": [
+            "02-3425-5000"
+        ]
+    },
+    {
+        "region": "서울특별시",
+        "district": "강북구청",
+        "site": "http://www.gangbuk.go.kr",
+        "address": "서울 강북구 도봉로89길 13",
+        "phone": [
+            "02-901-6114",
+            "02-901-6111",
+            "02-901-6112",
+            "02-901-6113"
+        ]
+    },
+    {
+        "region": "서울특별시",
+        "district": "강서구청",
+        "site": "https://www.gangseo.seoul.kr",
+        "address": "서울특별시 강서구 화곡로 302",
+        "phone": [
+            "02-2600-6114",
+            "02-2600-6330"
+        ]
+    },
+    {
+        "region": "서울특별시",
+        "district": "관악구청",
+        "site": "http://www.gwanak.go.kr",
+        "address": "서울특별시 관악구 관악로 145",
+        "phone": [
+            "02-879-5000",
+            "02-879-6000",
+            "02-879-7000"
+        ]
+    },
+    {
+        "region": "서울특별시",
+        "district": "광진구",
+        "site": "http://www.gwangjin.go.kr",
+        "address": "서울특별시 광진구 아차산로 400",
+        "phone": [
+            "02-450-1114",
+            "02-450-1300"
+        ]
+    },
+    {
+        "region": "서울특별시",
+        "district": "구로구",
+        "site": "http://www.guro.go.kr",
+        "address": "서울특별시 구로구 가마산로 245",
+        "phone": [
+            "02-860-2114",
+            "02-860-2127",
+            "02-860-2128",
+            "02-860-2129",
+            "02-860-2669"
+        ]
+    },
+    {
+        "region": "서울특별시",
+        "district": "금천구청",
+        "site": "http://www.geumcheon.go.kr",
+        "address": "서울특별시 금천구 시흥대로73길 70 금천구청",
+        "phone": [
+            "02-2627-2114",
+            "02-2627-2300",
+            "02-2627-2330"
+        ]
+    },
+    {
+        "region": "서울특별시",
+        "district": "노원구청",
+        "site": "http://www.nowon.kr",
+        "address": "서울시 노원구 노해로 437(상계동)",
+        "phone": [
+            "02-2116-3114",
+            "02-2116-3000",
+            "02-2116-3001"
+        ]
+    },
+    {
+        "region": "서울특별시",
+        "district": "도봉구청",
+        "site": "http://www.dobong.go.kr",
+        "address": "서울특별시 도봉구 마들로 656(방학동)",
+        "phone": [
+            "02-2091-2120",
+            "02-2091-2091"
+        ]
+    },
+    {
+        "region": "서울특별시",
+        "district": "동대문구청",
+        "site": "http://www.ddm.go.kr",
+        "address": "서울시 동대문구 천호대로 145(용두동)",
+        "phone": [
+            "02-2127-4114",
+            "02-2127-4300",
+            "02-2127-5000",
+            "02-2127-4000"
+        ]
+    },
+    {
+        "region": "서울특별시",
+        "district": "동작구청",
+        "site": "http://www.dongjak.go.kr",
+        "address": "서울특별시 동작구 장승배기로 70(신청사)",
+        "phone": [
+            "02-820-1114",
+            "02-820-1119"
+        ]
+    },
+    {
+        "region": "서울특별시",
+        "district": "마포구청",
+        "site": "http://www.mapo.go.kr",
+        "address": "서울특별시 마포구 월드컵로 212(성산동)",
+        "phone": [
+            "02-3153-8114",
+            "02-3153-8100"
+        ]
+    },
+    {
+        "region": "서울특별시",
+        "district": "서대문구청",
+        "site": "http://www.sdm.go.kr",
+        "address": "서울 서대문구 연희로 248(연희동)",
+        "phone": [
+            "02-330-1114",
+            "02-330-1301",
+            "02-330-1302",
+            "02-330-1599",
+            "02-330-1300"
+        ]
+    },
+    {
+        "region": "서울특별시",
+        "district": "서초구청",
+        "site": "https://www.seocho.go.kr",
+        "address": "서울특별시 서초구 남부순환로 2584 (서초동)",
+        "phone": [
+            "02-2155-6114",
+            "02-2155-6100",
+            "02-2155-6101",
+            "02-2155-6102",
+            "02-2155-6103"
+        ]
+    },
+    {
+        "region": "서울특별시",
+        "district": "성동구청",
+        "site": "https://www.sd.go.kr",
+        "address": "서울특별시 성동구 고산자로 270",
+        "phone": [
+            "02-2286-5114",
+            "02-2286-5200"
+        ]
+    },
+    {
+        "region": "서울특별시",
+        "district": "성북구청",
+        "site": "http://www.sb.go.kr",
+        "address": "서울특별시 성북구 보문로 168 (삼선동 5가)",
+        "phone": [
+            "02-2241-3114",
+            "02-2241-3330",
+            "02-2241-3300",
+            "02-2241-3301",
+            "02-2241-3302"
+        ]
+    },
+    {
+        "region": "서울특별시",
+        "district": "송파구청",
+        "site": "http://www.songpa.go.kr",
+        "address": "서울특별시 송파구 올림픽로 326 (신천동)",
+        "phone": [
+            "02-2147-2000",
+            "02-2147-2200"
+        ]
+    },
+    {
+        "region": "서울특별시",
+        "district": "양천구청",
+        "site": "http://www.yangcheon.go.kr",
+        "address": "서울특별시 양천구 목동동로 105(신정동)",
+        "phone": [
+            "02-2620-3114",
+            "02-2620-3000"
+        ]
+    },
+    {
+        "region": "서울특별시",
+        "district": "영등포구청",
+        "site": "http://www.ydp.go.kr",
+        "address": "서울 영등포구 당산로 123 (당산동3가)",
+        "phone": [
+            "02-2670-3114",
+            "02-2670-3000"
+        ]
+    },
+    {
+        "region": "서울특별시",
+        "district": "용산구청",
+        "site": "http://www.yongsan.go.kr",
+        "address": "서울특별시 용산구 녹사평대로 150(이태원동)",
+        "phone": [
+            "02-2199-6114",
+            "02-2199-6300"
+        ]
+    },
+    {
+        "region": "서울특별시",
+        "district": "은평구청",
+        "site": "https://www.ep.go.kr",
+        "address": "서울시 은평구 은평로 195(녹번동)",
+        "phone": [
+            "02-351-6114",
+            "02-351-8000"
+        ]
+    },
+    {
+        "region": "서울특별시",
+        "district": "종로구청",
+        "site": "http://www.jongno.go.kr",
+        "address": "서울 종로구 종로1길 36",
+        "phone": [
+            "02-2148-1114",
+            "02-2148-1111",
+            "02-2148-1112",
+            "02-2148-1113"
+        ]
+    },
+    {
+        "region": "서울특별시",
+        "district": "중구청",
+        "site": "http://www.junggu.seoul.kr",
+        "address": "서울시 중구 창경궁로17 (예관동)",
+        "phone": [
+            "02-3396-4114",
+            "02-3396-4000"
+        ]
+    },
+    {
+        "region": "서울특별시",
+        "district": "중랑구청",
+        "site": "http://www.jungnang.go.kr",
+        "address": "서울특별시 중랑구 봉화산로 179 (신내동) 중랑구청",
+        "phone": [
+            "02-2094-0114",
+            "02-2094-2150"
+        ]
+    },
+    {
+        "region": "부산광역시",
+        "district": "부산시청",
+        "site": "http://www.busan.go.kr"
+    },
+    {
+        "region": "부산광역시",
+        "district": "강서구",
+        "site": "http://www.bsgangseo.go.kr"
+    },
+    {
+        "region": "부산광역시",
+        "district": "금정구",
+        "site": "http://www.geumjeong.go.kr"
+    },
+    {
+        "region": "부산광역시",
+        "district": "기장군",
+        "site": "http://www.gijang.go.kr"
+    },
+    {
+        "region": "부산광역시",
+        "district": "남구",
+        "site": "http://www.bsnamgu.go.kr"
+    },
+    {
+        "region": "부산광역시",
+        "district": "동구",
+        "site": "http://www.bsdonggu.go.kr"
+    },
+    {
+        "region": "부산광역시",
+        "district": "동래구",
+        "site": "http://www.dongnae.go.kr"
+    },
+    {
+        "region": "부산광역시",
+        "district": "부산진구",
+        "site": "http://www.busanjin.go.kr"
+    },
+    {
+        "region": "부산광역시",
+        "district": "북구",
+        "site": "http://www.bsbukgu.go.kr"
+    },
+    {
+        "region": "부산광역시",
+        "district": "사상구",
+        "site": "http://www.sasang.go.kr"
+    },
+    {
+        "region": "부산광역시",
+        "district": "사하구",
+        "site": "http://www.saha.go.kr"
+    },
+    {
+        "region": "부산광역시",
+        "district": "서구",
+        "site": "http://www.bsseogu.go.kr"
+    },
+    {
+        "region": "부산광역시",
+        "district": "수영구",
+        "site": "http://www.suyeong.go.kr"
+    },
+    {
+        "region": "부산광역시",
+        "district": "연제구",
+        "site": "http://www.yeonje.go.kr"
+    },
+    {
+        "region": "부산광역시",
+        "district": "영도구",
+        "site": "http://www.yeongdo.go.kr"
+    },
+    {
+        "region": "부산광역시",
+        "district": "중구",
+        "site": "http://www.bsjunggu.go.kr"
+    },
+    {
+        "region": "부산광역시",
+        "district": "해운대구",
+        "site": "http://www.haeundae.go.kr"
+    },
+    {
+        "region": "대구광역시",
+        "district": "대구시청",
+        "site": "http://www.daegu.go.kr"
+    },
+    {
+        "region": "대구광역시",
+        "district": "군위군",
+        "site": "https://www.gunwi.go.kr"
+    },
+    {
+        "region": "대구광역시",
+        "district": "남구",
+        "site": "http://www.nam.daegu.kr"
+    },
+    {
+        "region": "대구광역시",
+        "district": "달서구",
+        "site": "http://www.dalseo.daegu.kr"
+    },
+    {
+        "region": "대구광역시",
+        "district": "달성군",
+        "site": "http://dalseong.daegu.kr"
+    },
+    {
+        "region": "대구광역시",
+        "district": "동구",
+        "site": "http://www.dong.daegu.kr"
+    },
+    {
+        "region": "대구광역시",
+        "district": "북구",
+        "site": "http://www.buk.daegu.kr"
+    },
+    {
+        "region": "대구광역시",
+        "district": "서구",
+        "site": "http://www.dgs.go.kr"
+    },
+    {
+        "region": "대구광역시",
+        "district": "수성구",
+        "site": "http://www.suseong.kr"
+    },
+    {
+        "region": "대구광역시",
+        "district": "중구",
+        "site": "http://www.jung.daegu.kr"
+    },
+    {
+        "region": "인천광역시",
+        "district": "인천시청",
+        "site": "https://www.incheon.go.kr"
+    },
+    {
+        "region": "인천광역시",
+        "district": "강화군",
+        "site": "http://www.ganghwa.go.kr"
+    },
+    {
+        "region": "인천광역시",
+        "district": "계양구",
+        "site": "http://www.gyeyang.go.kr"
+    },
+    {
+        "region": "인천광역시",
+        "district": "남동구",
+        "site": "https://www.namdong.go.kr"
+    },
+    {
+        "region": "인천광역시",
+        "district": "동구",
+        "site": "http://www.icdonggu.go.kr"
+    },
+    {
+        "region": "인천광역시",
+        "district": "미추홀구",
+        "site": "https://www.michuhol.go.kr"
+    },
+    {
+        "region": "인천광역시",
+        "district": "부평구",
+        "site": "https://www.icbp.go.kr"
+    },
+    {
+        "region": "인천광역시",
+        "district": "서구",
+        "site": "http://www.seo.incheon.kr"
+    },
+    {
+        "region": "인천광역시",
+        "district": "연수구",
+        "site": "http://www.yeonsu.go.kr"
+    },
+    {
+        "region": "인천광역시",
+        "district": "옹진군",
+        "site": "http://www.ongjin.go.kr"
+    },
+    {
+        "region": "인천광역시",
+        "district": "중구",
+        "site": "http://www.icjg.go.kr"
+    },
+    {
+        "region": "광주광역시",
+        "district": "광주시청",
+        "site": "https://www.gwangju.go.kr"
+    },
+    {
+        "region": "광주광역시",
+        "district": "광산구",
+        "site": "http://www.gwangsan.go.kr"
+    },
+    {
+        "region": "광주광역시",
+        "district": "남구",
+        "site": "http://www.namgu.gwangju.kr"
+    },
+    {
+        "region": "광주광역시",
+        "district": "동구",
+        "site": "http://www.donggu.kr"
+    },
+    {
+        "region": "광주광역시",
+        "district": "북구",
+        "site": "https://bukgu.gwangju.kr"
+    },
+    {
+        "region": "광주광역시",
+        "district": "서구",
+        "site": "https://www.seogu.gwangju.kr"
+    },
+    {
+        "region": "대전광역시",
+        "district": "대전시청",
+        "site": "https://www.daejeon.go.kr"
+    },
+    {
+        "region": "대전광역시",
+        "district": "대덕구",
+        "site": "https://www.daedeok.go.kr"
+    },
+    {
+        "region": "대전광역시",
+        "district": "동구",
+        "site": "https://www.donggu.go.kr"
+    },
+    {
+        "region": "대전광역시",
+        "district": "서구",
+        "site": "https://www.seogu.go.kr"
+    },
+    {
+        "region": "대전광역시",
+        "district": "유성구",
+        "site": "https://www.yuseong.go.kr"
+    },
+    {
+        "region": "대전광역시",
+        "district": "중구",
+        "site": "https://www.djjunggu.go.kr"
+    },
+    {
+        "region": "울산광역시",
+        "district": "울산시청",
+        "site": "https://www.ulsan.go.kr"
+    },
+    {
+        "region": "울산광역시",
+        "district": "남구",
+        "site": "http://www.ulsannamgu.go.kr"
+    },
+    {
+        "region": "울산광역시",
+        "district": "동구",
+        "site": "http://www.donggu.ulsan.kr"
+    },
+    {
+        "region": "울산광역시",
+        "district": "북구",
+        "site": "http://www.bukgu.ulsan.kr"
+    },
+    {
+        "region": "울산광역시",
+        "district": "울주군",
+        "site": "http://www.ulju.ulsan.kr"
+    },
+    {
+        "region": "울산광역시",
+        "district": "중구",
+        "site": "http://www.junggu.ulsan.kr"
+    },
+    {
+        "region": "세종특별자치시",
+        "district": "세종특별자치시청",
+        "site": "http://www.sejong.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "경기도청",
+        "site": "https://www.gg.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "가평군",
+        "site": "https://www.gp.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "고양시",
+        "site": "https://www.goyang.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "과천시",
+        "site": "https://www.gccity.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "광명시",
+        "site": "https://www.gm.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "광주시",
+        "site": "https://www.gjcity.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "구리시",
+        "site": "https://www.guri.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "군포시",
+        "site": "https://www.gunpo.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "김포시",
+        "site": "https://www.gimpo.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "남양주시",
+        "site": "https://www.nyj.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "동두천시",
+        "site": "https://www.ddc.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "부천시",
+        "site": "https://www.bucheon.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "성남시",
+        "site": "https://www.seongnam.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "수원시",
+        "site": "https://www.suwon.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "시흥시",
+        "site": "https://www.siheung.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "안산시",
+        "site": "https://www.ansan.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "안성시",
+        "site": "https://www.anseong.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "안양시",
+        "site": "https://www.anyang.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "양주시",
+        "site": "https://www.yangju.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "양평군",
+        "site": "https://www.yp21.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "여주시",
+        "site": "https://www.yeoju.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "연천군",
+        "site": "https://www.yeoncheon.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "오산시",
+        "site": "https://www.osan.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "용인시",
+        "site": "https://www.yongin.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "의왕시",
+        "site": "https://www.uiwang.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "의정부시",
+        "site": "https://www.ui4u.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "이천시",
+        "site": "https://www.icheon.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "파주시",
+        "site": "https://www.paju.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "평택시",
+        "site": "https://www.pyeongtaek.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "포천시",
+        "site": "https://www.pocheon.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "하남시",
+        "site": "https://www.hanam.go.kr"
+    },
+    {
+        "region": "경기도",
+        "district": "화성시",
+        "site": "https://www.hscity.go.kr"
+    },
+    {
+        "region": "강원특별자치도",
+        "district": "강원도청",
+        "site": "https://www.provin.gangwon.kr"
+    },
+    {
+        "region": "강원특별자치도",
+        "district": "강릉시",
+        "site": "http://www.gangneung.go.kr"
+    },
+    {
+        "region": "강원특별자치도",
+        "district": "고성군",
+        "site": "https://www.gwgs.go.kr"
+    },
+    {
+        "region": "강원특별자치도",
+        "district": "동해시",
+        "site": "https://www.dh.go.kr"
+    },
+    {
+        "region": "강원특별자치도",
+        "district": "삼척시",
+        "site": "https://www.samcheok.go.kr"
+    },
+    {
+        "region": "강원특별자치도",
+        "district": "속초시",
+        "site": "https://www.sokcho.go.kr"
+    },
+    {
+        "region": "강원특별자치도",
+        "district": "양구군",
+        "site": "https://www.yanggu.go.kr"
+    },
+    {
+        "region": "강원특별자치도",
+        "district": "양양군",
+        "site": "https://www.yangyang.go.kr"
+    },
+    {
+        "region": "강원특별자치도",
+        "district": "영월군",
+        "site": "https://www.yw.go.kr"
+    },
+    {
+        "region": "강원특별자치도",
+        "district": "원주시",
+        "site": "http://www.wonju.go.kr"
+    },
+    {
+        "region": "강원특별자치도",
+        "district": "인제군",
+        "site": "http://www.inje.go.kr"
+    },
+    {
+        "region": "강원특별자치도",
+        "district": "정선군",
+        "site": "https://www.jeongseon.go.kr"
+    },
+    {
+        "region": "강원특별자치도",
+        "district": "철원군",
+        "site": "https://www.cwg.go.kr"
+    },
+    {
+        "region": "강원특별자치도",
+        "district": "춘천시",
+        "site": "https://www.chuncheon.go.kr"
+    },
+    {
+        "region": "강원특별자치도",
+        "district": "태백시",
+        "site": "http://www.taebaek.go.kr"
+    },
+    {
+        "region": "강원특별자치도",
+        "district": "평창군",
+        "site": "http://www.pc.go.kr"
+    },
+    {
+        "region": "강원특별자치도",
+        "district": "홍천군",
+        "site": "https://www.hongcheon.go.kr"
+    },
+    {
+        "region": "강원특별자치도",
+        "district": "화천군",
+        "site": "https://www.ihc.go.kr"
+    },
+    {
+        "region": "강원특별자치도",
+        "district": "횡성군",
+        "site": "https://www.hsg.go.kr"
+    },
+    {
+        "region": "충청북도",
+        "district": "충청북도청",
+        "site": "https://www.chungbuk.go.kr"
+    },
+    {
+        "region": "충청북도",
+        "district": "괴산군",
+        "site": "https://www.goesan.go.kr"
+    },
+    {
+        "region": "충청북도",
+        "district": "단양군",
+        "site": "https://www.danyang.go.kr"
+    },
+    {
+        "region": "충청북도",
+        "district": "보은군",
+        "site": "http://www.boeun.go.kr"
+    },
+    {
+        "region": "충청북도",
+        "district": "영동군",
+        "site": "https://www.yd21.go.kr"
+    },
+    {
+        "region": "충청북도",
+        "district": "옥천군",
+        "site": "https://www.oc.go.kr"
+    },
+    {
+        "region": "충청북도",
+        "district": "음성군",
+        "site": "https://www.eumseong.go.kr"
+    },
+    {
+        "region": "충청북도",
+        "district": "제천시",
+        "site": "https://www.jecheon.go.kr"
+    },
+    {
+        "region": "충청북도",
+        "district": "증평군",
+        "site": "https://www.jp.go.kr"
+    },
+    {
+        "region": "충청북도",
+        "district": "진천군",
+        "site": "https://www.jincheon.go.kr"
+    },
+    {
+        "region": "충청북도",
+        "district": "청주시",
+        "site": "https://intro.cheongju.go.kr"
+    },
+    {
+        "region": "충청북도",
+        "district": "충주시",
+        "site": "https://www.chungju.go.kr"
+    },
+    {
+        "region": "충청남도",
+        "district": "충청남도청",
+        "site": "https://www.chungnam.go.kr"
+    },
+    {
+        "region": "충청남도",
+        "district": "계룡시",
+        "site": "http://www.gyeryong.go.kr"
+    },
+    {
+        "region": "충청남도",
+        "district": "공주시",
+        "site": "http://www.gongju.go.kr"
+    },
+    {
+        "region": "충청남도",
+        "district": "금산군",
+        "site": "http://www.geumsan.go.kr"
+    },
+    {
+        "region": "충청남도",
+        "district": "논산시",
+        "site": "http://www.nonsan.go.kr"
+    },
+    {
+        "region": "충청남도",
+        "district": "당진시",
+        "site": "http://www.dangjin.go.kr"
+    },
+    {
+        "region": "충청남도",
+        "district": "보령시",
+        "site": "https://www.brcn.go.kr"
+    },
+    {
+        "region": "충청남도",
+        "district": "부여군",
+        "site": "http://www.buyeo.go.kr"
+    },
+    {
+        "region": "충청남도",
+        "district": "서산시",
+        "site": "http://www.seosan.go.kr"
+    },
+    {
+        "region": "충청남도",
+        "district": "서천군",
+        "site": "http://www.seocheon.go.kr"
+    },
+    {
+        "region": "충청남도",
+        "district": "아산시",
+        "site": "http://www.asan.go.kr"
+    },
+    {
+        "region": "충청남도",
+        "district": "예산군",
+        "site": "http://www.yesan.go.kr"
+    },
+    {
+        "region": "충청남도",
+        "district": "천안시",
+        "site": "http://www.cheonan.go.kr"
+    },
+    {
+        "region": "충청남도",
+        "district": "청양군",
+        "site": "http://www.cheongyang.go.kr"
+    },
+    {
+        "region": "충청남도",
+        "district": "태안군",
+        "site": "http://www.taean.go.kr"
+    },
+    {
+        "region": "충청남도",
+        "district": "홍성군",
+        "site": "http://www.hongseong.go.kr"
+    },
+    {
+        "region": "전북특별자치도",
+        "district": "전북도청",
+        "site": "https://www.jeonbuk.go.kr"
+    },
+    {
+        "region": "전북특별자치도",
+        "district": "고창군",
+        "site": "http://www.gochang.go.kr"
+    },
+    {
+        "region": "전북특별자치도",
+        "district": "군산시",
+        "site": "http://www.gunsan.go.kr"
+    },
+    {
+        "region": "전북특별자치도",
+        "district": "김제시",
+        "site": "http://www.gimje.go.kr"
+    },
+    {
+        "region": "전북특별자치도",
+        "district": "남원시",
+        "site": "http://www.namwon.go.kr"
+    },
+    {
+        "region": "전북특별자치도",
+        "district": "무주군",
+        "site": "https://www.muju.go.kr"
+    },
+    {
+        "region": "전북특별자치도",
+        "district": "부안군",
+        "site": "https://www.buan.go.kr"
+    },
+    {
+        "region": "전북특별자치도",
+        "district": "순창군",
+        "site": "http://www.sunchang.go.kr"
+    },
+    {
+        "region": "전북특별자치도",
+        "district": "완주군",
+        "site": "http://www.wanju.go.kr"
+    },
+    {
+        "region": "전북특별자치도",
+        "district": "익산시",
+        "site": "http://www.iksan.go.kr"
+    },
+    {
+        "region": "전북특별자치도",
+        "district": "임실군",
+        "site": "http://www.imsil.go.kr"
+    },
+    {
+        "region": "전북특별자치도",
+        "district": "장수군",
+        "site": "http://www.jangsu.go.kr"
+    },
+    {
+        "region": "전북특별자치도",
+        "district": "전주시",
+        "site": "https://www.jeonju.go.kr"
+    },
+    {
+        "region": "전북특별자치도",
+        "district": "정읍시",
+        "site": "http://www.jeongeup.go.kr"
+    },
+    {
+        "region": "전북특별자치도",
+        "district": "진안군",
+        "site": "http://jinan.go.kr"
+    },
+    {
+        "region": "전라남도",
+        "district": "전라남도청",
+        "site": "https://www.jeonnam.go.kr"
+    },
+    {
+        "region": "전라남도",
+        "district": "강진군",
+        "site": "http://www.gangjin.go.kr"
+    },
+    {
+        "region": "전라남도",
+        "district": "고흥군",
+        "site": "https://www.goheung.go.kr"
+    },
+    {
+        "region": "전라남도",
+        "district": "곡성군",
+        "site": "https://www.gokseong.go.kr"
+    },
+    {
+        "region": "전라남도",
+        "district": "광양시",
+        "site": "http://www.gwangyang.go.kr"
+    },
+    {
+        "region": "전라남도",
+        "district": "구례군",
+        "site": "https://www.gurye.go.kr"
+    },
+    {
+        "region": "전라남도",
+        "district": "나주시",
+        "site": "http://www.naju.go.kr"
+    },
+    {
+        "region": "전라남도",
+        "district": "담양군",
+        "site": "http://www.damyang.go.kr"
+    },
+    {
+        "region": "전라남도",
+        "district": "목포시",
+        "site": "http://www.mokpo.go.kr"
+    },
+    {
+        "region": "전라남도",
+        "district": "무안군",
+        "site": "http://www.muan.go.kr"
+    },
+    {
+        "region": "전라남도",
+        "district": "보성군",
+        "site": "http://www.boseong.go.kr"
+    },
+    {
+        "region": "전라남도",
+        "district": "순천시",
+        "site": "https://www.suncheon.go.kr"
+    },
+    {
+        "region": "전라남도",
+        "district": "신안군",
+        "site": "http://www.shinan.go.kr"
+    },
+    {
+        "region": "전라남도",
+        "district": "여수시",
+        "site": "http://www.yeosu.go.kr"
+    },
+    {
+        "region": "전라남도",
+        "district": "영광군",
+        "site": "http://www.yeonggwang.go.kr"
+    },
+    {
+        "region": "전라남도",
+        "district": "영암군",
+        "site": "http://www.yeongam.go.kr"
+    },
+    {
+        "region": "전라남도",
+        "district": "완도군",
+        "site": "http://www.wando.go.kr"
+    },
+    {
+        "region": "전라남도",
+        "district": "장성군",
+        "site": "http://www.jangseong.go.kr"
+    },
+    {
+        "region": "전라남도",
+        "district": "장흥군",
+        "site": "http://www.jangheung.go.kr"
+    },
+    {
+        "region": "전라남도",
+        "district": "진도군",
+        "site": "http://www.jindo.go.kr"
+    },
+    {
+        "region": "전라남도",
+        "district": "함평군",
+        "site": "http://www.hampyeong.go.kr"
+    },
+    {
+        "region": "전라남도",
+        "district": "해남군",
+        "site": "http://www.haenam.go.kr"
+    },
+    {
+        "region": "전라남도",
+        "district": "화순군",
+        "site": "https://www.hwasun.go.kr"
+    },
+    {
+        "region": "경상북도",
+        "district": "경상북도청",
+        "site": "https://www.gb.go.kr"
+    },
+    {
+        "region": "경상북도",
+        "district": "경산시",
+        "site": "http://gbgs.go.kr"
+    },
+    {
+        "region": "경상북도",
+        "district": "경주시",
+        "site": "http://www.gyeongju.go.kr"
+    },
+    {
+        "region": "경상북도",
+        "district": "고령군",
+        "site": "http://www.goryeong.go.kr"
+    },
+    {
+        "region": "경상북도",
+        "district": "구미시",
+        "site": "http://www.gumi.go.kr"
+    },
+    {
+        "region": "경상북도",
+        "district": "김천시",
+        "site": "https://gc.go.kr"
+    },
+    {
+        "region": "경상북도",
+        "district": "문경시",
+        "site": "https://www.gbmg.go.kr"
+    },
+    {
+        "region": "경상북도",
+        "district": "봉화군",
+        "site": "https://www.bonghwa.go.kr"
+    },
+    {
+        "region": "경상북도",
+        "district": "상주시",
+        "site": "http://www.sangju.go.kr"
+    },
+    {
+        "region": "경상북도",
+        "district": "성주군",
+        "site": "http://www.sj.go.kr"
+    },
+    {
+        "region": "경상북도",
+        "district": "안동시",
+        "site": "https://www.andong.go.kr"
+    },
+    {
+        "region": "경상북도",
+        "district": "영덕군",
+        "site": "http://www.yd.go.kr"
+    },
+    {
+        "region": "경상북도",
+        "district": "영양군",
+        "site": "http://www.yyg.go.kr"
+    },
+    {
+        "region": "경상북도",
+        "district": "영주시",
+        "site": "http://www.yeongju.go.kr"
+    },
+    {
+        "region": "경상북도",
+        "district": "영천시",
+        "site": "http://www.yc.go.kr"
+    },
+    {
+        "region": "경상북도",
+        "district": "예천군",
+        "site": "http://www.ycg.kr"
+    },
+    {
+        "region": "경상북도",
+        "district": "울릉군",
+        "site": "http://www.ulleung.go.kr"
+    },
+    {
+        "region": "경상북도",
+        "district": "울진군",
+        "site": "http://www.uljin.go.kr"
+    },
+    {
+        "region": "경상북도",
+        "district": "의성군",
+        "site": "http://www.usc.go.kr"
+    },
+    {
+        "region": "경상북도",
+        "district": "청도군",
+        "site": "https://www.cheongdo.go.kr"
+    },
+    {
+        "region": "경상북도",
+        "district": "청송군",
+        "site": "http://www.cs.go.kr"
+    },
+    {
+        "region": "경상북도",
+        "district": "칠곡군",
+        "site": "http://www.chilgok.go.kr"
+    },
+    {
+        "region": "경상북도",
+        "district": "포항시",
+        "site": "http://www.pohang.go.kr"
+    },
+    {
+        "region": "경상남도",
+        "district": "경상남도청",
+        "site": "https://www.gyeongnam.go.kr"
+    },
+    {
+        "region": "경상남도",
+        "district": "거제시",
+        "site": "https://www.geoje.go.kr"
+    },
+    {
+        "region": "경상남도",
+        "district": "거창군",
+        "site": "https://www.geochang.go.kr"
+    },
+    {
+        "region": "경상남도",
+        "district": "고성군",
+        "site": "https://www.goseong.go.kr"
+    },
+    {
+        "region": "경상남도",
+        "district": "김해시",
+        "site": "http://www.gimhae.go.kr"
+    },
+    {
+        "region": "경상남도",
+        "district": "남해군",
+        "site": "https://www.namhae.go.kr"
+    },
+    {
+        "region": "경상남도",
+        "district": "밀양시",
+        "site": "http://miryang.go.kr"
+    },
+    {
+        "region": "경상남도",
+        "district": "사천시",
+        "site": "http://sacheon.go.kr"
+    },
+    {
+        "region": "경상남도",
+        "district": "산청군",
+        "site": "http://www.sancheong.go.kr"
+    },
+    {
+        "region": "경상남도",
+        "district": "양산시",
+        "site": "http://www.yangsan.go.kr"
+    },
+    {
+        "region": "경상남도",
+        "district": "의령군",
+        "site": "http://www.uiryeong.go.kr"
+    },
+    {
+        "region": "경상남도",
+        "district": "진주시",
+        "site": "http://www.jinju.go.kr"
+    },
+    {
+        "region": "경상남도",
+        "district": "창녕군",
+        "site": "http://www.cng.go.kr"
+    },
+    {
+        "region": "경상남도",
+        "district": "창원시",
+        "site": "https://www.changwon.go.kr"
+    },
+    {
+        "region": "경상남도",
+        "district": "통영시",
+        "site": "http://www.tongyeong.go.kr"
+    },
+    {
+        "region": "경상남도",
+        "district": "하동군",
+        "site": "http://www.hadong.go.kr"
+    },
+    {
+        "region": "경상남도",
+        "district": "함안군",
+        "site": "http://www.haman.go.kr"
+    },
+    {
+        "region": "경상남도",
+        "district": "함양군",
+        "site": "http://www.hygn.go.kr"
+    },
+    {
+        "region": "경상남도",
+        "district": "합천군",
+        "site": "http://www.hc.go.kr"
+    },
+    {
+        "region": "제주특별자치도",
+        "district": "제주특별자치도청",
+        "site": "https://www.jeju.go.kr"
+    },
+    {
+        "region": "제주특별자치도",
+        "district": "제주시",
+        "site": "https://www.jejusi.go.kr"
+    },
+    {
+        "region": "제주특별자치도",
+        "district": "서귀포시",
+        "site": "https://www.seogwipo.go.kr"
+    }
+]
