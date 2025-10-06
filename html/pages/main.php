@@ -83,8 +83,8 @@ include __DIR__ . '/../includes/search.php';
     <section class="search-result" aria-label="전체 등록된 번호">
 
         <?php if (!empty($all_numbers)): ?>
-            <p>
-                오늘까지 등록된 총 <strong><?= number_format($total_count) ?></strong>개의 데이터가 있습니다.
+            <p class="desc2">
+                * 오늘까지 등록된 총 <strong><?= number_format($total_count) ?></strong>개의 데이터가 있습니다.
             </p>
             <ul class="search-list">
                 <?php foreach ($all_numbers as $row): ?>

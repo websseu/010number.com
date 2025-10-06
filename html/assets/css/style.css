@@ -38,6 +38,7 @@
     font-size: 13px;
     color: #555;
     font-family: "NanumSquareNeo";
+    margin-top: 40px;
 }
 
 /* 서치 섹션(search-section) */
@@ -114,6 +115,14 @@
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 20px;
+}
+
+.search-result .desc2 {
+    text-align: left;
+    margin-bottom: 40px;
+    padding: 0;
+    color: #666;
+    font-size: 14px;
 }
 
 .search-list {
