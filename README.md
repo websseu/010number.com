@@ -3,7 +3,7 @@
 모르는 번호, 스팸 전화, 광고 전화를 검색하고 사용자들이 확인할 수 있는 웹 서비스입니다.
 
 ## 📂 디렉토리 구조
-
+```
 html/
 ├── assets/
 │   ├── css/
@@ -40,16 +40,19 @@ html/
 ├── index.php
 ├── phpinfo.php
 └── README.md
+```
 
 ## 테이블
+```sql
 CREATE TABLE categories (
     id INT AUTO_INCREMENT PRIMARY KEY,
     slug VARCHAR(50) UNIQUE NOT NULL COMMENT '영문 식별자 (예: spam, ad, store)',
     name_ko VARCHAR(50) NOT NULL COMMENT '한글명 (예: 스팸, 광고, 상점)',
-    color VARCHAR(10) DEFAULT '#999' COMMENT '뱃지 색상 HEX',
+    color VARCHAR(10) DEFAULT '#999' COMMENT '뱃지 색상',
     description VARCHAR(255) DEFAULT NULL COMMENT '카테고리 설명'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
+```
+```sql
 INSERT INTO categories (id, slug, name_ko, color, description) VALUES
 (1, 'fraud', '사기/피싱', '#B71C1C', '스미싱, 피싱, 보이스피싱 관련 사기 전화'),
 (2, 'spam', '스팸/광고', '#D32F2F', '불필요 문자, 광고문자, 홍보, 대리운전'),
@@ -62,23 +65,36 @@ INSERT INTO categories (id, slug, name_ko, color, description) VALUES
 (9, 'transport', '운송/항공', '#1976D2', '항공사, 운송업, 아시아나항공 등'),
 (10, 'platform', '플랫폼/앱', '#0097A7', '배달의민족, 앱 기반 서비스, 온라인 플랫폼'),
 (11, 'public', '공공기관', '#7B1FA2', '공단, 국립, 정부기관, 공공기관 등'),
-(12, 'shop', '쇼핑', '#FBC02D', '홈쇼핑, G마켓, 온라인 쇼핑 관련'),
-(13, 'store', '상점', '#303F9F', '토즈, 야놀자, 오프라인 매장, 소상공인'),
-(14, 'hospital', '병원', '#C2185B', '병원, 의원, 의료기관 관련'),
-(15, 'etc', '기타', '#9E9E9E', '기타 분류 불명확 번호');
-
+(12, 'shop', '쇼핑/관광', '#FBC02D', '홈쇼핑, G마켓, 온라인 쇼핑 관련'),
+(13, 'store', '상점/매장', '#303F9F', '토즈, 야놀자, 오프라인 매장, 소상공인'),
+(14, 'hospital', '병원/의료', '#C2185B', '병원, 의원, 의료기관 관련'),
+(15, 'info', '유용/정보', '#028A0F', '고객센터, 서비스 안내, 공지, 유용한 정보 전화'),
+(16, 'etc', '기타', '#9E9E9E', '기타 분류 불명확 번호');
+```
+```sql
 CREATE TABLE phone_numbers (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    number VARCHAR(20) NOT NULL UNIQUE COMMENT '전화번호',
-    title VARCHAR(100) DEFAULT NULL COMMENT '상점명 또는 발신자명',
-    category_id INT DEFAULT NULL COMMENT '카테고리 ID',
-    view_count INT DEFAULT 0 COMMENT '조회수',
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP COMMENT '등록일',
-    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '수정일',
-    FOREIGN KEY (category_id) REFERENCES categories(id) ON DELETE SET NULL
+    id INT AUTO_INCREMENT PRIMARY KEY,   
+    number VARCHAR(20) NOT NULL UNIQUE COMMENT '전화번호',   
+    title VARCHAR(100) DEFAULT NULL COMMENT '상점명',   
+    category_id INT DEFAULT NULL COMMENT '카테고리 ID',   
+    view_count INT DEFAULT 0 COMMENT '조회수',   
+    comment_count INT DEFAULT 0 COMMENT '댓글수',
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP COMMENT '등록일',   
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '수정일',   
+    FOREIGN KEY (category_id) REFERENCES categories(id) ON DELETE SET NULL   
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
-
-
-
+```
+```sql
+CREATE TABLE comments (
+    id INT AUTO_INCREMENT PRIMARY KEY,          -- 댓글 고유 ID
+    phone_id INT NOT NULL,                      -- phone_numbers.id 참조 (외래키)
+    content TEXT NOT NULL,                      -- 댓글 내용
+    password VARCHAR(255) DEFAULT NULL,         -- 비밀번호 (삭제용, 해시 저장)
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP, -- 작성 시간
+    CONSTRAINT fk_comment_phone
+        FOREIGN KEY (phone_id) 
+        REFERENCES phone_numbers(id)
+        ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+```
 	

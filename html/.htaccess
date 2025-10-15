@@ -1,0 +1,19 @@
+RewriteEngine On
+
+# Search
+RewriteRule ^search/?$ pages/search.php [L,QSA]
+
+# Category 
+RewriteRule ^category/([a-zA-Z0-9_-]+)/?$ pages/category.php?slug=$1 [L,QSA]
+
+# Number
+RewriteRule ^number/([0-9\-]+)/?$ pages/number.php?num=$1 [L,QSA]
+
+# Report
+RewriteRule ^report/?$ pages/report.php [L,QSA]
+RewriteRule ^report-save/?$ pages/report-save.php [L,QSA]
+
+# Comment
+RewriteRule ^comment-list/?$ pages/comment-list.php [L,QSA]
+RewriteRule ^comment-save/?$ pages/comment-save.php [L,QSA]
+RewriteRule ^comment-delete/?$ pages/comment-delete.php [L,QSA]
