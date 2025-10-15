@@ -1,9 +1,6 @@
 <?php
-// ==============================
-// config.php (env 기반 설정)
-// ==============================
 
-// 1. .env 파일 불러오기 함수
+// .env 파일 불러오기 함수
 function loadEnv($path)
 {
     if (!file_exists($path)) {
