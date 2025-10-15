@@ -17,3 +17,7 @@ RewriteRule ^report-save/?$ pages/report-save.php [L,QSA]
 RewriteRule ^comment-list/?$ pages/comment-list.php [L,QSA]
 RewriteRule ^comment-save/?$ pages/comment-save.php [L,QSA]
 RewriteRule ^comment-delete/?$ pages/comment-delete.php [L,QSA]
+
+<Files ".env">
+    Require all denied
+</Files>
