@@ -5,24 +5,13 @@ require_once __DIR__ . '/../config.php';
 $totalResult = $mysqli->query("SELECT COUNT(*) as total FROM phone_numbers");
 $grandTotal = $totalResult->fetch_assoc()['total'];
 
-// 카테고리별 번호 개수 조회
-$stmt = $mysqli->prepare("
-    SELECT c.id, c.slug, c.name_ko, c.color, COUNT(p.id) AS total
-    FROM categories c
-    LEFT JOIN phone_numbers p ON p.category_id = c.id
-    GROUP BY c.id
-    ORDER BY c.id ASC
-");
-$stmt->execute();
-$result = $stmt->get_result();
-$rows = $result->fetch_all(MYSQLI_ASSOC);
-
-// 카테고리별 아이콘 매핑
+// 카테고리별 아이콘 매핑 (원하는 순서대로)
 $icons = [
     '사기/피싱'   => '⚠️',
     '스팸/광고'   => '🚫',
     '교육/학원'   => '🎓',
     '금융/은행'   => '🏦',
+    '보험/대출'   => '💳',
     '택배/배달'   => '📦',
     '인증/보안'   => '🔐',
     '광고/마케팅' => '📢',
@@ -37,17 +26,51 @@ $icons = [
     '기타'       => '📞'
 ];
 
-// 카드 데이터 구성
+// 카테고리별 번호 개수 조회
+$stmt = $mysqli->prepare("
+    SELECT c.id, c.slug, c.name_ko, c.color, COUNT(p.id) AS total
+    FROM categories c
+    LEFT JOIN phone_numbers p ON p.category_id = c.id
+    GROUP BY c.id
+    ORDER BY c.id ASC
+");
+$stmt->execute();
+$result = $stmt->get_result();
+$rows = $result->fetch_all(MYSQLI_ASSOC);
+
+// 카드 데이터 구성 (아이콘 배열 순서대로 정렬)
 $categoryCards = [];
-foreach ($rows as $row) {
-    $categoryCards[] = [
-        'id'    => $row['id'], 
-        'slug'  => $row['slug'], 
-        'color' => $row['color'],
-        'icon'  => $icons[$row['name_ko']] ?? '📞',
-        'name'  => $row['name_ko'],
-        'count' => number_format($row['total'])
-    ];
+
+// 아이콘 배열의 순서대로 카테고리 정렬
+foreach ($icons as $categoryName => $icon) {
+    // 해당 카테고리 찾기
+    $found = false;
+    foreach ($rows as $row) {
+        if ($row['name_ko'] === $categoryName) {
+            $categoryCards[] = [
+                'id'    => $row['id'], 
+                'slug'  => $row['slug'], 
+                'color' => $row['color'],
+                'icon'  => $icon,
+                'name'  => $row['name_ko'],
+                'count' => number_format($row['total'])
+            ];
+            $found = true;
+            break;
+        }
+    }
+    
+    // 데이터베이스에 없는 카테고리도 표시 (0개로)
+    if (!$found) {
+        $categoryCards[] = [
+            'id'    => 0, 
+            'slug'  => strtolower(str_replace(['/', ' '], ['-', '-'], $categoryName)), 
+            'color' => '#999999',
+            'icon'  => $icon,
+            'name'  => $categoryName,
+            'count' => '0'
+        ];
+    }
 }
 
 // 메타데이터
